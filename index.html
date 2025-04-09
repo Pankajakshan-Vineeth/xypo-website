@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xypo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <div class="container">
+        <img src="images/logo.png" class="logo" />
+        <div class="header-text">
+          <h1>
+            The purpose is to <br />
+            teach, bring learning to the people
+          </h1>
+          <span class="square"></span>
+          <p>
+            I was like that ship before my education began, only I was without
+            compass or sounding-line, and had no way of knowing how near the
+            harbour was.
+          </p>
+          <button class="commom-button">Read More</button>
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav id="sideNav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">OFFER</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn" />
+
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+
+      sideNav.style.right = "-250px";
+      menuBtn.onclick = function () {
+      
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+        } else {
+          sideNav.style.right = "-250px";
+        }
+      };
+    </script>
+    <!-------About-->
+
+    <section id="about">
+      <div class="about-left-col">
+        <img src="images/about.png" />
+      </div>
+      <div class="about-right-col">
+        <div class="about-text">
+          <h1>About Us</h1>
+          <span class="square"></span>
+          <p>
+            A good education is extremely essential for everyone to grow and
+            succeed in life. Education increases self-confidence and assists in
+            developing the personality of a person. Education plays a big role
+            in our life. Education is split into 3 parts such as primary
+            education, secondary education, and higher secondary education. All
+            these 3 divisions of education have their value and advantages.
+            Primary education is the base of education for a person, secondary
+            education paves the direction for further education and higher
+            secondary education makes the future and the ultimate way of life.
+          </p>
+          <br /><br />
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+          <h2>
+            Every kid has his own vision of doing something unique in life.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-------FEATURES--------->
+
+    <section class="features">
+      <div class="feature-row">
+        <div class="feature-col">
+          <img src="images/pic-1.png" />
+          <h4>Learn Anywhere</h4>
+          <p>Switch Between your computer,tablet or mobile device</p>
+        </div>
+        <div class="feature-col">
+          <img src="images/pic-2.png" />
+          <h4>Expert Teachers</h4>
+          <p>Learn From industry experts who are passionate about teaching</p>
+        </div>
+        <div class="feature-col">
+          <img src="images/pic-3.png" />
+          <h4>Unlimited Access</h4>
+          <p>
+            Choose what you would like to learn from extensive ssubscription
+          </p>
+        </div>
+      </div>
+      <div class="feature-button">
+        <div class="line">
+          <span class="line-1"></span><br />
+          <span class="line-2"></span><br />
+          <span class="line-3"></span>
+        </div>
+        <button class="commom-button">Start Free Trial</button>
+      </div>
+    </section>
+
+    <!-----Courses-------->
+
+    <section id="courses">
+      <div class="container-course-row">
+        <div class="course-left-col">
+          <div class="course-text">
+            <h1>Browse Our Top<br />Courses</h1>
+            <span class="square"></span>
+            <p>
+              For those interested in technology, courses in cybersecurity and
+              software development are increasingly important as digital threats
+              and technological advancements continue to evolve. Additionally,
+              courses in sustainability and environmental science are gaining
+              traction, reflecting a growing emphasis on addressing climate
+              change and promoting sustainable practices.
+            </p>
+            <button class="commom-button">View All Courses</button>
+
+            <div class="line">
+              <span class="line-1"></span><br />
+              <span class="line-2"></span><br />
+              <span class="line-3"></span>
+            </div>
+          </div>
+        </div>
+        <div class="course-right-col">
+          <img src="images/course.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-------OFFERS-->
+
+    <section id="offer">
+      <div class="about-left-col">
+        <img src="images/offer.png" />
+      </div>
+      <div class="about-right-col">
+        <div class="about-text">
+          <h1>Limitless Learning<br />Limitless Possibilities</h1>
+          <span class="square"></span>
+          <p>
+            his idea permeates various domains, from scientific innovation and
+            technological advancement to personal development and creative
+            expression. Embracing a limitless mindset means envisioning
+            scenarios where obstacles are mere stepping stones and where dreams
+            are not confined by reality's limitations.
+          </p>
+          <button class="commom-button">Start Free Trial</button>
+
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+          </div>
+          <h2>
+            It’s about harnessing the power of the mind to push beyond
+            conventional boundaries.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!---contact-->
+
+        <section id="contact">
+          <div class="container contact-row">
+            <div class="contact-left-column">
+              <h1>Sign Up to Join our <br/>Learning</h1>
+              <form>
+                <input type="text" placeholder="Enter name">
+                <input type="email" placeholder="Enter Email">
+                <input type="password" placeholder="Enter password">
+                <div class="btn-box">
+                  <button class="commom-button">Sign Up
+                  </button>
+                  <button class="commom-button">Start Free Trial</button>
+                </div>
+                <div class="line">
+                  <span class="line-1"></span><br />
+                  <span class="line-2"></span><br />
+                  <span class="line-3"></span>
+                </div>
+              </form>
+            </div>
+            <div class="contact-right-column">
+              <img src="images/contact.png" />
+          </div>
+        </section>
+
+            <!---Footer-->
+
+            <section id="footer">
+              <div class="container footer-row">
+                <hr>
+                <div class="footer-left-col">
+                  <div class="footer-links">
+
+                    <div class="link-title">
+                      <h4>Product</h4>
+                      <small>Our Plan</small>
+                      <small>Free Trial</small>
+                    </div>
+
+                    <div class="link-title"></div>
+                      <h4>Product</h4>
+                      <small>Our Plan</small>
+                      <small>Free Trial</small>
+                    </div>
+                    <div class="link-title"></div>
+                      <h4>Product</h4>
+                      <small>Our Plan</small>
+                      <small>Free Trial</small>
+                    </div>
+                    
+                  </div>
+                  <div class="link-title">
+                    <h4>Product</h4>
+                    <small>Our Plan</small>
+                    <small>Free Trial</small>
+                  </div>
+                </div>
+                <div class="footer-right-col">
+                  <p>right Column</p>
+                </div>
+              </div>
+   </body>
+</html>
